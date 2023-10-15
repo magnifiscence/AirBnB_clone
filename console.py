@@ -88,11 +88,9 @@ class HBNBCommand(cmd.Cmd):
         if len(args_list) == 0:
             print("** class name missing **")
             return
-        
         elif len(args_list) == 1:
             print("** instance id missing **")
             return
-        
         cls_name = args_list[0]
         cls_id = args_list[1]
         storage = FileStorage()
