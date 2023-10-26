@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
     background-color: white;
     height: 70px;
@@ -7,4 +8,22 @@ header {
     background-repeat: no-repeat;
     background-position-x: 20px;
     background-position-y: center;
+=======
+/*header style*/
+
+header {
+	color: white;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.header_logo {
+	height: 100%;
+	width: 142px;
+	background-image: url("../images/logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+>>>>>>> adf0a06294479d2aaf2dac9d8066dd0e77c18d88
 }

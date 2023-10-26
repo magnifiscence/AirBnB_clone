@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .places {
     text-align: center;
     margin: 0;
@@ -24,4 +25,36 @@
 .places h2 {
     font-size: 30px;
     text-align: center;
+=======
+.places{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.places h1{
+    font-size: 30px;
+}
+.places_title{
+    padding-top: 30px;
+    margin-bottom: -25px;
+}
+.articles{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article{
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+}
+article h2{
+    font-size: 30px;
+    margin-top: -5px;
+>>>>>>> adf0a06294479d2aaf2dac9d8066dd0e77c18d88
 }

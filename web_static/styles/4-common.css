@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     position: relative;
     min-height: 100vh;
@@ -13,4 +14,19 @@ body {
     max-width: 1000px;
     margin: 30px auto;
     bottom: 30px;
+=======
+/*for global styles*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #484848;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 30px auto;
+>>>>>>> adf0a06294479d2aaf2dac9d8066dd0e77c18d88
 }
